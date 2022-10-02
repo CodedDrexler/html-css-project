@@ -68,6 +68,10 @@ h1 {
   width: 490px;
 }
 
+h1 strong, p strong{
+  color: rgb(202, 156, 71);
+}
+
 section p{
   font-size: 18px;
   line-height: 35px;
@@ -90,4 +94,34 @@ footer a {
   font-weight: bold;
   text-decoration: none;
   color: #393f2a
+}
+
+button{
+  color: white;
+
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+
+  height: 48px;
+  background: rgb(202, 156, 71);
+  border: none;
+  border-radius: 7px;
+
+  margin-top: 32px;
+  font-size: 16;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 14px 32px 15px;
+
+  cursor: pointer;
+}
+button a{
+  text-decoration: none;
+}
+button:hover{
+  background: rgb(112, 79, 17);
 }
